@@ -14,13 +14,13 @@ import { work } from "@cv"
             endDate != null ? new Date(endDate).getFullYear() : "Actual"
 
           return (
-            <li class="mb-8">
+            <li class="mt-6 mb-12">
               <article>
                 <header class="flex justify-between align-start mb-2">
                   <div>
-                    <h3 class="font-semibold mb-1">
+                    <h3 class="text-xl font-semibold mb-1">
                       <a href={url} title={`Ver ${name}`} target="_blank">
-                        {name}
+                        <span class="bg-black text-white pl-2">{name.slice(0, (name.length/2))}</span>{name.slice((name.length/2), name.length)}
                       </a>
                     </h3>
                     <h4>{position}</h4>
@@ -55,7 +55,7 @@ import { work } from "@cv"
                       Destrezas
                     </strong>
                   </p>
-                  <p>
+                  <p class="text-xs">
                     {skills.join(", ")}
                   </p>
                 </footer>
