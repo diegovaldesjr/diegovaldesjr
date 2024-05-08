@@ -107,6 +107,7 @@
     {
       "name": "Universidad Católica Andrés Bello",
       "position": "Analista de tecnología y soporte",
+      "url": "https://www.ucab.edu.ve/guayana/",
       "startDate": "2017-01-01",
       "endDate": "2018-01-01",
       "summary": "Desempeñe el rol de programador web y soporte para los sistemas de los distintos departamentos de la universidad, utilizando diversas tecnologías.",
@@ -126,7 +127,7 @@
   ],
   "education": [{
     "institution": "Universidad Católica Andrés Bello",
-    "url": "https://www.uoc.edu/portal/es/index.html",
+    "url": "https://www.ucab.edu.ve/guayana/",
     "area": "Ingeniero Informático",
     "studyType": "Bachelor",
     "startDate": "2014-03-01",
@@ -218,6 +219,83 @@
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Vue",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Avanzado",
+      "keywords": [
+        "Cloud"
+      ]
+    },
+    {
+      "name": "astro",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Static Generation"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend"
+      ]
+    },
+    {
+      "name": "Django",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "API"
+      ]
+    },
+    {
+      "name": "Postgres",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "NoSQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Jira",
+      "level": "Avanzado",
+      "keywords": [
+        "Service Desk"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend"
       ]
     }
   ],

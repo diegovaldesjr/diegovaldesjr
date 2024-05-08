@@ -16,6 +16,18 @@ import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
+import Vue from "@/icons/vue.astro"
+import astro from "@/icons/astro.astro"
+import AWS from "@/icons/aws.astro"
+import Django from "@/icons/django.astro"
+import Postgres from "@/icons/postgres.astro"
+import Python from "@/icons/python.astro"
+import Angular from "@/icons/angular.astro"
+import Java from "@/icons/java.astro"
+import MongoDB from "@/icons/mongodb.astro"
+import Jira from "@/icons/jira.astro"
+import PHP from "@/icons/php.astro"
+
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -33,7 +45,30 @@ const SKILLS_ICONS: Record<string, any> = {
   SwiftUI,
   Kotlin,
   Flutter,
+  Vue,
+  astro,
+  AWS,
+  Django,
+  Postgres,
+  Python,
+  Angular,
+  Java,
+  MongoDB,
+  Jira,
+  PHP
 }
+
+skills.sort((a,b) => {
+  const nameA = a.name.toUpperCase();
+  const nameB = b.name.toUpperCase();
+  if (nameA < nameB) {
+    return -1;
+  }
+  if (nameA > nameB) {
+    return 1;
+  }
+  return 0;
+})
 ---
 
 <Section title="Habilidades">
