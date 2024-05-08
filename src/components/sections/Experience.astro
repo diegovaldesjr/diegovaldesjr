@@ -1,0 +1,84 @@
+---
+import Section from "../Section.astro"
+
+import { work } from "@cv"
+---
+
+<Section title="Experiencia laboral">
+  <ul>
+    {
+      work.map(
+        ({ name, startDate, endDate, position, summary, highlights, skills, url }) => {
+          const startYear = new Date(startDate).getFullYear()
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+
+          return (
+            <li class="mb-8">
+              <article>
+                <header class="flex justify-between align-start mb-2">
+                  <div>
+                    <h3 class="font-semibold mb-1">
+                      <a href={url} title={`Ver ${name}`} target="_blank">
+                        {name}
+                      </a>
+                    </h3>
+                    <h4>{position}</h4>
+                  </div>
+
+                  <div>
+                    <time 
+                      datetime={startDate}
+                      data-title={startDate}>
+                        {startYear}
+                    </time>
+                    {" - "}
+                    <time 
+                      datetime={endDate}
+                      data-title={endDate}>
+                        {endYear}
+                    </time>
+                  </div>
+                </header>
+
+                <footer class="text-sm text-gray-600 dark:text-slate-50">
+                  <p>{summary}</p>
+                  <ul class="list-disc mt-4 pl-4">
+                    {highlights.map((highlight) => (
+                      <li class="mb-2">
+                        {highlight}
+                      </li>
+                    ))}
+                  </ul>
+                  <p class="mt-4">
+                    <strong class="text-gray-950 dark:text-white">
+                      Destrezas
+                    </strong>
+                  </p>
+                  <p>
+                    {skills.join(", ")}
+                  </p>
+                </footer>
+              </article>
+            </li>
+          )
+        }
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 102px;
+    cursor: default;
+  }
+  
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
+  }
+</style>

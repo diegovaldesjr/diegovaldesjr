@@ -1,0 +1,119 @@
+---
+import { basics } from "@cv"
+import Section from "@/components/Section.astro"
+import Mail from "@/icons/Mail.astro"
+import LinkedIn from "@/icons/LinkedIn.astro"
+import GitHub from "@/icons/GitHub.astro"
+import Cv from "@/icons/Cv.astro"
+import WorldMap from "@/icons/WorldMap.astro"
+import type { SocialIcon } from "@/types"
+
+const { name, label, image, location, profiles, email } = basics
+const { city, region } = location
+
+const SOCIAL_ICONS: SocialIcon = {
+  GitHub,
+  LinkedIn,
+  Cv,
+}
+---
+
+<Section>
+  <div class="flex flex-col-reverse md:flex-row items-center justify-between">
+    <div class="flex flex-col justify-center items-center md:flex-start md:items-start gap-1 my-2">
+      <h1 class="text-4xl font-bold my-4">{name}</h1>
+      <h2 class="text-base font-semibold text-gray-600">{label}</h2>
+      <span class="flex justify-center items-center">
+        <WorldMap />
+        {city}, {region}
+      </span>
+      <footer>
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Mail />
+            </a>
+          )
+        }
+        {
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network]
+
+            return (
+              <a
+                href={url}
+                title={network === 'Cv' ? 'Descarga mi CV' : `Visitar el perfil de ${name} en ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon />
+              </a>
+            )
+          })
+        }
+      </footer>
+    </div>
+    <figure>
+      <img src={image} alt={name} />
+    </figure>
+  </div>
+</Section>
+
+<style>
+  img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 128px;
+    border-radius: 16px;
+  }
+
+  span {
+    color: #666;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: -0.05rem;
+  }
+
+  footer {
+    color: #555;
+    font-size: 0.65rem;
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  footer a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  footer a:hover {
+    background: #eee;
+    border: 1px solid #ddd;
+  }
+
+  @media (width <= 700px) {
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
+  }
+</style>

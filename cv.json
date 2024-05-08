@@ -1,0 +1,280 @@
+{
+  "basics": {
+    "name": "Diego Valdés",
+    "label": "Full Stack Developer",
+    "image": "/me.jpg",
+    "email": "diego.valdes14@gmail.com",
+    "url": "https://diegovaldesjr.dev",
+    "summary": "Ingeniero de software con más de 6 años de experiencia en planificación, diseño e implantación de proyectos de IT utilizando Python y herramientas relacionadas con JavaScript, como Node.js, Express, VueJs y React. Además, tengo pericia en diseño de arquitecturas en la nube, software en gestión de proyectos, mesas de ayuda y herramientas de integración y entrega continua (CI/CD).",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Santiago",
+      "countryCode": "CL",
+      "region": "Chile"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "diegovaldesjr",
+        "url": "https://linkedin.com/in/diegovaldesjr"
+      },
+      {
+        "network": "GitHub",
+        "username": "diegovaldesjr",
+        "url": "https://github.com/diegovaldesjr"
+      },
+      {
+        "network": "Cv",
+        "url": "https://github.com/diegovaldesjr"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Destácame",
+      "position": "FullStack Developer",
+      "url": "https://www.destacame.cl/",
+      "startDate": "2022-01-01",
+      "endDate": "2023-12-01",
+      "summary": "Trabaje en el diseño y desarrollo de soluciones enfocadas en el área de productos financieros bajo la metodología Shape Up , optimizando la experiencia del usuario y potenciando las capacidades analíticas sobre su deudas.",
+      "highlights": [
+        "Orquesté la integración con plataformas externas automatizando la generación de cuotas para el pago de deudas castigadas del usuario, optimizando los procesos de carga de bases y agendamiento de puntos de contacto.",
+        "Desarrollé un módulo de análisis de deuda en la plataforma, permitiendo a cada usuario revisar sus deudas mensuales junto con un análisis detallado basado en gráficos y estadísticas, utilizando como base informes de deudas a personales naturales (CMF en Chile) e informes de buró (México).",
+        "Desarrollé la integración de cupones de descuento en la suscripción premium mensual de la plataforma.",
+        "Estuve a cargo del diseño e implementación de un módulo que recopilaba información financiera del usuario para proporcionar recomendaciones destinadas a mejorar su situación económica. Estas recomendaciones incluían consejos útiles y un seguimiento continuo del progreso.",
+        "Trabajé en la optimización y diseño de la interfaz de usuario para la suscripción mensual y la compra de informes de deudas, con el objetivo de hacerla más intuitiva y fácil de usar para nuestros usuarios finales, mejorando así la claridad y la usabilidad de la interfaz."
+      ],
+      "skills": [
+        "AWS API Gateway", 
+        "AWS CloudWatch", 
+        "AWS DynamoDB", 
+        "AWS EC2", 
+        "AWS Lambda", 
+        "CSS", 
+        "Django", 
+        "Django Rest Framework", 
+        "Git", 
+        "Github", 
+        "HTML", 
+        "JavaScript", 
+        "MySQL", 
+        "Python", 
+        "SASS", 
+        "Vue"
+      ]
+    },
+    {
+      "name": "S4E",
+      "position": "Analista & Project Manager",
+      "url": "https://s4e.cl",
+      "startDate": "2019-03-01",
+      "endDate": "2021-12-01",
+      "summary": "",
+      "highlights": [
+        "Fui responsable de la planificación, estimación y definición del alcance en proyectos en su etapa inicial",
+        "Me encargué de planificar las actividades y realizar un seguimiento de los hitos en distintos proyectos, en el rol de Scrum Master",
+        "Trabajé en la implementación y mantenimiento de herramientas de Atlassian especializado en Jira, Confluence, Bamboo y Bitbucket",
+        "Diseñe e implemente soluciones basadas en la nube utilizando los servicios y recursos proporcionados por Amazon Web Services (AWS)",
+        "Realice análisis detallado de datos de Jira generando informes personalizados para tomar decisiones informadas, mejorar la eficiencia y el rendimiento del equipo utilizando EazyBi",
+        "Implemente de procesos CI/CD utilizando Bamboo para diversos proyectos",
+        "Estuve a cargo del diseño y la construcción de una plataforma destinada a la gestión del personal y al cálculo de remuneraciones del personal",
+        "Lideré el desarrollo de una plataforma diseñada para gestionar el aforo de los negocios durante la pandemia"
+      ],
+      "skills": [
+        "Jira",
+        "EazyBi",
+        "AngularJs",
+        "NodeJs",
+        "Java",
+        "Groovy",
+        "PHP",
+        "CodeIgniter",
+        "Confluence",
+        "AWS API Gateway", 
+        "AWS CloudWatch", 
+        "AWS DynamoDB", 
+        "AWS EC2", 
+        "AWS Lambda", 
+        "CSS", 
+        "Git",  
+        "HTML", 
+        "JavaScript", 
+        "MySQL", 
+        "Vue"
+      ]
+    },
+    {
+      "name": "Universidad Católica Andrés Bello",
+      "position": "Analista de tecnología y soporte",
+      "startDate": "2017-01-01",
+      "endDate": "2018-01-01",
+      "summary": "Desempeñe el rol de programador web y soporte para los sistemas de los distintos departamentos de la universidad, utilizando diversas tecnologías.",
+      "highlights": [],
+      "skills": [
+        "AngularJs",
+        "NodeJs",
+        "SequelizeJs",
+        "Git", 
+        "HTML", 
+        "CSS",
+        "JavaScript",
+        "PHP", 
+        "MySQL"
+      ]
+    }
+  ],
+  "education": [{
+    "institution": "Universidad Católica Andrés Bello",
+    "url": "https://www.uoc.edu/portal/es/index.html",
+    "area": "Ingeniero Informático",
+    "studyType": "Bachelor",
+    "startDate": "2014-03-01",
+    "endDate": "2019-10-01",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Digicupo",
+      "isActive": false,
+      "description": "Plataforma diseñada para gestionar el aforo de los negocios durante la pandemia",
+      "highlights": [
+        "VueJs",
+        "HTML",
+        "CSS",
+        "AWS",
+        "Bamboo",
+        "JavaScript"
+      ],
+      "url": "https://digicupo.cl"
+    },
+    {
+      "name": "Remuneración Facil",
+      "isActive": false,
+      "description": "Plataforma destinada a la gestión del personal y al cálculo de remuneraciones del personal",
+      "highlights": [
+        "AngularJs",
+        "HTML",
+        "CSS",
+        "AWS",
+        "Bamboo",
+        "JavaScript"
+      ],
+      "url": "https://remuneracionfacil.cl"
+    },
+    {
+      "name": "Shiny Cleaning Services",
+      "isActive": true,
+      "description": "Página web para empresa que ofrece servicios de limpieza para empresas y hogares",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "url": "http://shinycleaningtx.com/"
+    },
+    {
+      "name": "Protokol",
+      "isActive": true,
+      "description": "Página web para empresa de telecomunicaciones que ejecuta proyectos de instalación, integración, mantenimiento y puesta a punto",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "url": "https://protokol.es/"
+    }
+  ]
+}

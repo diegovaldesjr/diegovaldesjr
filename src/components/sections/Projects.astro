@@ -1,0 +1,69 @@
+---
+import Section from "../Section.astro"
+
+import { projects } from "@cv"
+---
+
+<Section title="Proyectos">
+  <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+    {
+      projects.map(
+        ({ url, description, highlights, name, isActive }) => {
+          return (
+            <li class="border border-gray-200 rounded-md p-4">
+              <article>
+                <header>
+                  <h3 class="font-semibold mb-2">
+                    {
+                      (url && isActive) ? (
+                        <a 
+                          href={url} 
+                          target="_blank" 
+                          title={`Ver el proyecto ${name}`}
+                          >
+                          {name}
+                        </a>
+                      ) : (
+                        name
+                      )
+                    }
+                    
+                    {isActive && <span>•</span>}
+                  </h3>
+                  <p class="text-xs text-gray-600 dark:text-slate-50 mb-4">{description}</p>
+                </header>
+                <footer class="flex flex-wrap gap-1">
+                  {highlights.map((highlight) => {
+                    return <span class="text-xs rounded-md bg-gray-200 text-slate-600 py-1 px-2">{highlight}</span>
+                  })}
+                </footer>
+              </article>
+            </li>
+          )
+        }
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  article h3 span {
+    color: rgb(0, 188, 47);
+    animation-name: flicker;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+</style>
