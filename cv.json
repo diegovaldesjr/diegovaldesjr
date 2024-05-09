@@ -137,12 +137,26 @@
       "DB1101 - Basic SQL"
     ]
   }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
+  "certificates": [
+    {
+    "name": "AWS Certified Cloud Practitioner",
+    "date": "2020-01-02",
+    "issuer": "Amazon Web Services Training and Certification",
     "url": "https://certificate.com"
-  }],
+    },
+    {
+      "name": "AWS Partner: Accreditation (Technical)",
+      "date": "2021-01-02",
+      "issuer": "Amazon Web Services Training and Certification",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Atlassian Certified Jira Project Administrator for Data Center and Server",
+      "date": "2021-01-02",
+      "issuer": "Atlassian",
+      "url": "https://certificate.com"
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
