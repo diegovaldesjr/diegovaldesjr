@@ -101,7 +101,8 @@
         "HTML", 
         "JavaScript", 
         "MySQL", 
-        "Vue"
+        "Vue",
+        "Wordpress"
       ]
     },
     {
@@ -310,6 +311,13 @@
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Backend"
+      ]
+    },
+    {
+      "name": "Wordpress",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "Ecommerce"
       ]
     }
   ],
