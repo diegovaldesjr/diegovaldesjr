@@ -1,4 +1,8 @@
-### Hi there 👋
+### Hi there 👋🏻
+- ✌🏻 My name is Diego Valdes
+- 🔭 I’m currently working on Python and JS
+- 📫 How to reach me: [diego.valdes.dev](https://www.diegovaldes.dev/)
+- ⚡ Fun fact: I like to rap
 
 <!--
 **diegovaldesjr/diegovaldesjr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
