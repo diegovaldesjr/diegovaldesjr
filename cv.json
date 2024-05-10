@@ -323,6 +323,19 @@
   ],
   "projects": [
     {
+      "name": "Nineties Grove (Coming Soon Page)",
+      "isActive": true,
+      "description": "Página de 'Coming Soon' para mi marca de ropa mientras la tienda se encuentra en construcción",
+      "highlights": [
+        "Astro",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind"
+      ],
+      "url": "https://ninetiesgrove.com"
+    },
+    {
       "name": "Digicupo",
       "isActive": false,
       "description": "Plataforma diseñada para gestionar el aforo de los negocios durante la pandemia",
