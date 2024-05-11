@@ -325,7 +325,7 @@
     {
       "name": "Nineties Grove (Coming Soon Page)",
       "isActive": true,
-      "description": "Página de 'Coming Soon' para mi marca de ropa mientras la tienda se encuentra en construcción",
+      "description": "Página web de 'Coming Soon' para mi marca de ropa mientras la tienda se encuentra en construcción",
       "highlights": [
         "Astro",
         "HTML",
@@ -359,6 +359,20 @@
         "CSS",
         "AWS",
         "Bamboo",
+        "JavaScript"
+      ],
+      "url": "https://remuneracionfacil.cl"
+    },
+    {
+      "name": "Comunicad",
+      "isActive": false,
+      "description": "Página web para agencia de relaciones públicas y comunicaciones de marketing",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "Sass",
         "JavaScript"
       ],
       "url": "https://remuneracionfacil.cl"
