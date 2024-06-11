@@ -32,6 +32,32 @@
   },
   "work": [
     {
+      "name": "Nineties Grove",
+      "position": "FullStack Developer & Diseñador",
+      "url": "https://www.ninetiesgrove.com/",
+      "startDate": "2024-01-02",
+      "endDate": "",
+      "summary": "Creador de una marca de ropa inspirada en la moda de los años 90 para personas nacidas en esa década. Siendo responsable de la tienda online, diseño de prendas, gestión y creación de contenido para sus redes sociales.",
+      "highlights": [
+        "Estuve a cargo del desarrollo de la tienda online donde utilicé React y Next.js para la construcción, asegurando una experiencia de usuario fluida y moderna.",
+        "Llevé a cabo la migración completa de la tienda a Shopify, optimizando la plataforma para manejar el catálogo de productos y las necesidades de e-commerce de la marca.",
+        "Utilicé Liquid y CSS para personalizar una plantilla de Shopify, adaptándola a las necesidades específicas y la identidad visual de Nineties Grove.",
+        "Realicé los diseños de las distintas prendas de la colección utilizando Photoshop, asegurando que cada pieza refleja la esencia de la moda noventera y la visión de la marca.",
+        "Desarrollé una página de Coming Soon utilizando Astro y Tailwind CSS, creando una presentación visualmente atractiva y anticipando el lanzamiento de nuevas colecciones"
+      ],
+      "skills": [
+        "JavaScript",
+        "React",
+        "NextJs",
+        "Shopify",
+        "Liquid",
+        "Astro",
+        "Tailwind",
+        "CSS",
+        "Adobe Photoshop"
+      ]
+    },
+    {
       "name": "Destácame",
       "position": "FullStack Developer",
       "url": "https://www.destacame.cl/",
@@ -39,7 +65,7 @@
       "endDate": "2023-12-01",
       "summary": "Trabaje en el diseño y desarrollo de soluciones enfocadas en el área de productos financieros bajo la metodología Shape Up , optimizando la experiencia del usuario y potenciando las capacidades analíticas sobre su deudas.",
       "highlights": [
-        "Orquesté la integración con plataformas externas automatizando la generación de cuotas para el pago de deudas castigadas del usuario, optimizando los procesos de carga de bases y agendamiento de puntos de contacto.",
+        "Orquesté la integración con plataformas externas automatizando la generación de cuotas para el pago de deudas castigadas del usuario, optimizando los procesos de carga de bases y agendamiento de puntos de contacto para más de 20.000 usuarios",
         "Desarrollé un módulo de análisis de deuda en la plataforma, permitiendo a cada usuario revisar sus deudas mensuales junto con un análisis detallado basado en gráficos y estadísticas, utilizando como base informes de deudas a personales naturales (CMF en Chile) e informes de buró (México).",
         "Desarrollé la integración de cupones de descuento en la suscripción premium mensual de la plataforma.",
         "Estuve a cargo del diseño e implementación de un módulo que recopilaba información financiera del usuario para proporcionar recomendaciones destinadas a mejorar su situación económica. Estas recomendaciones incluían consejos útiles y un seguimiento continuo del progreso.",
@@ -61,7 +87,9 @@
         "MySQL", 
         "Python", 
         "SASS", 
-        "Vue"
+        "Tailwind",
+        "Vue",
+        "Vuetify"
       ]
     },
     {
@@ -78,8 +106,9 @@
         "Diseñe e implemente soluciones basadas en la nube utilizando los servicios y recursos proporcionados por Amazon Web Services (AWS)",
         "Realice análisis detallado de datos de Jira generando informes personalizados para tomar decisiones informadas, mejorar la eficiencia y el rendimiento del equipo utilizando EazyBi",
         "Implemente de procesos CI/CD utilizando Bamboo para diversos proyectos",
-        "Estuve a cargo del diseño y la construcción de una plataforma destinada a la gestión del personal y al cálculo de remuneraciones del personal",
-        "Lideré el desarrollo de una plataforma diseñada para gestionar el aforo de los negocios durante la pandemia"
+        "Lideré el desarrollo tanto de la página web de la empresa como el de su tienda online, donde se ofrecían sus distintos servicios.",
+        "Estuve a cargo del diseño y la construcción de una plataforma destinada a la gestión del personal y al cálculo de remuneraciones del personal, utilizando funciones Lambda de AWS para implementar la lógica de negocio y Angular para el frontend.",
+        "Lideré el desarrollo de una plataforma diseñada para gestionar el aforo de los negocios durante la pandemia, empleando Node.js y Express para el backend y Vue.js para el frontend."
       ],
       "skills": [
         "Jira",
@@ -102,6 +131,7 @@
         "JavaScript", 
         "MySQL", 
         "Vue",
+        "WooCommerce",
         "Wordpress"
       ]
     },
@@ -111,7 +141,7 @@
       "url": "https://www.ucab.edu.ve/guayana/",
       "startDate": "2017-01-01",
       "endDate": "2018-01-01",
-      "summary": "Desempeñe el rol de programador web y soporte para los sistemas de los distintos departamentos de la universidad, utilizando diversas tecnologías.",
+      "summary": "Desempeñe el rol de programador web y soporte para los sistemas de los distintos departamentos de la universidad, empleando una variedad de tecnologías y herramientas, entre ellas Javascript, AngularJS, NodeJS, Express, SequelizeJS y PHP.",
       "highlights": [],
       "skills": [
         "AngularJs",
@@ -324,7 +354,7 @@
   "projects": [
     {
       "name": "Nineties Grove (Coming Soon Page)",
-      "isActive": true,
+      "isActive": false,
       "description": "Página web de 'Coming Soon' para mi marca de ropa mientras la tienda se encuentra en construcción",
       "highlights": [
         "Astro",

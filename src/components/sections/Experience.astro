@@ -34,11 +34,18 @@ import { work } from "@cv"
                         {startYear}
                     </time>
                     {" - "}
-                    <time 
-                      datetime={endDate}
-                      data-title={endDate}>
-                        {endYear}
-                    </time>
+                    {
+                      endDate ? (
+                        <time 
+                          datetime={endDate}
+                          data-title={endDate}>
+                            {endYear}
+                        </time>
+                      ) : (
+                        <time>Actualidad</time>
+                      )
+                    }
+
                   </div>
                 </header>
 
