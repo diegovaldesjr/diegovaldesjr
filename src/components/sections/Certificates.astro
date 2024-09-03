@@ -11,17 +11,17 @@ import { certificates } from "@cv"
         const year = new Date(date).getFullYear()
         
         return (
-          <li class="mb-4">
+          <li class="mb-4 dark:text-white">
             <article>
               <header class="flex justify-between align-start mb-1">
                 <div>
                   <h3 class="text-md">{name}</h3>
                 </div>
 
-                <time>{year}</time>
+                <time class="text-gray-600 dark:text-white">{year}</time>
               </header>
 
-              <footer class="text-xs text-gray-600">
+              <footer class="text-xs text-gray-600 dark:text-white">
                 <p>{issuer}</p>
               </footer>
             </article>
@@ -34,7 +34,6 @@ import { certificates } from "@cv"
 
 <style>
   time {
-    color: #555;
     font-size: 0.85rem;
     min-width: 102px;
   }

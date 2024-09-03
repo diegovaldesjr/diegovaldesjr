@@ -1,6 +1,9 @@
 ---
 import Layout from "@/layouts/Layout.astro"
 
+import ChangeLanguage from "@/components/ChangeLanguage.astro"
+import ChangeSchemaColor from "@/components/ChangeSchemaColor.astro"
+
 import About from "@/components/sections/About.astro"
 import Education from "@/components/sections/Education.astro"
 import Experience from "@/components/sections/Experience.astro"
@@ -14,6 +17,10 @@ const { name, label } = basics
 ---
 
 <Layout title={`Portafolio de ${name} - ${label}`}>
+  <div class="flex justify-end items-center p-4 pb-0 gap-2">
+    <ChangeSchemaColor />
+    <!-- <ChangeLanguage /> -->
+  </div>
   <main>
     <Hero />
     <About />

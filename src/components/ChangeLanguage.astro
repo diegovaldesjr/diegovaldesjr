@@ -1,0 +1,27 @@
+---
+// localStorage.getItem('language')
+// console.log(localStorage)
+
+---
+
+<div>
+  <img class="cursor-pointer" src="/en-flag.png" alt="es-flag" width="32"/>
+  <!-- {
+    language == 'es' && (
+      <img class="cursor-pointer" src="/en-flag.png" alt="es-flag" width="32"/>
+    )
+  } -->
+</div>
+
+<script>
+  let language = localStorage.getItem('language')
+  console.log(language)
+  
+  if (!language) localStorage.setItem('language', 'es')
+
+  
+</script>
+
+<style>
+
+</style>

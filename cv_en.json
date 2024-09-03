@@ -1,0 +1,437 @@
+{
+  "basics": {
+    "name": "Diego Valdés",
+    "label": "Full Stack Developer",
+    "image": "/avatar.png",
+    "email": "diego.valdes14@gmail.com",
+    "url": "https://diegovaldesjr.dev",
+    "summary": "Ingeniero de software con más de 6 años de experiencia en planificación, diseño e implantación de proyectos de IT utilizando Python y herramientas relacionadas con JavaScript, como Node.js, Express, VueJs y React. Además, tengo pericia en diseño de arquitecturas en la nube, software en gestión de proyectos, mesas de ayuda y herramientas de integración y entrega continua (CI/CD).",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Santiago",
+      "countryCode": "CL",
+      "region": "Chile"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "diegovaldesjr",
+        "url": "https://linkedin.com/in/diegovaldesjr"
+      },
+      {
+        "network": "GitHub",
+        "username": "diegovaldesjr",
+        "url": "https://github.com/diegovaldesjr"
+      },
+      {
+        "network": "Cv",
+        "url": "/DiegoValdesCV.pdf"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Nineties Grove",
+      "position": "FullStack Developer & Diseñador",
+      "url": "https://www.ninetiesgrove.com/",
+      "startDate": "2024-01-02",
+      "endDate": "",
+      "summary": "Creador de una marca de ropa inspirada en la moda de los años 90 para personas nacidas en esa década. Siendo responsable de la tienda online, diseño de prendas, gestión y creación de contenido para sus redes sociales.",
+      "highlights": [
+        "Estuve a cargo del desarrollo de la tienda online donde utilicé React y Next.js para la construcción, asegurando una experiencia de usuario fluida y moderna.",
+        "Llevé a cabo la migración completa de la tienda a Shopify, optimizando la plataforma para manejar el catálogo de productos y las necesidades de e-commerce de la marca.",
+        "Utilicé Liquid y CSS para personalizar una plantilla de Shopify, adaptándola a las necesidades específicas y la identidad visual de Nineties Grove.",
+        "Realicé los diseños de las distintas prendas de la colección utilizando Photoshop, asegurando que cada pieza refleja la esencia de la moda noventera y la visión de la marca.",
+        "Desarrollé una página de Coming Soon utilizando Astro y Tailwind CSS, creando una presentación visualmente atractiva y anticipando el lanzamiento de nuevas colecciones"
+      ],
+      "skills": [
+        "JavaScript",
+        "React",
+        "NextJs",
+        "Shopify",
+        "Liquid",
+        "Astro",
+        "Tailwind",
+        "CSS",
+        "Adobe Photoshop"
+      ]
+    },
+    {
+      "name": "Destácame",
+      "position": "FullStack Developer",
+      "url": "https://www.destacame.cl/",
+      "startDate": "2022-01-01",
+      "endDate": "2023-12-01",
+      "summary": "Trabaje en el diseño y desarrollo de soluciones enfocadas en el área de productos financieros bajo la metodología Shape Up , optimizando la experiencia del usuario y potenciando las capacidades analíticas sobre su deudas.",
+      "highlights": [
+        "Orquesté la integración con plataformas externas automatizando la generación de cuotas para el pago de deudas castigadas del usuario, optimizando los procesos de carga de bases y agendamiento de puntos de contacto para más de 20.000 usuarios",
+        "Desarrollé un módulo de análisis de deuda en la plataforma, permitiendo a cada usuario revisar sus deudas mensuales junto con un análisis detallado basado en gráficos y estadísticas, utilizando como base informes de deudas a personales naturales (CMF en Chile) e informes de buró (México).",
+        "Desarrollé la integración de cupones de descuento en la suscripción premium mensual de la plataforma.",
+        "Estuve a cargo del diseño e implementación de un módulo que recopilaba información financiera del usuario para proporcionar recomendaciones destinadas a mejorar su situación económica. Estas recomendaciones incluían consejos útiles y un seguimiento continuo del progreso.",
+        "Trabajé en la optimización y diseño de la interfaz de usuario para la suscripción mensual y la compra de informes de deudas, con el objetivo de hacerla más intuitiva y fácil de usar para nuestros usuarios finales, mejorando así la claridad y la usabilidad de la interfaz."
+      ],
+      "skills": [
+        "AWS API Gateway", 
+        "AWS CloudWatch", 
+        "AWS DynamoDB", 
+        "AWS EC2", 
+        "AWS Lambda", 
+        "CSS", 
+        "Django", 
+        "Django Rest Framework", 
+        "Git", 
+        "Github", 
+        "HTML", 
+        "JavaScript", 
+        "MySQL", 
+        "Python", 
+        "SASS", 
+        "Tailwind",
+        "Vue",
+        "Vuetify"
+      ]
+    },
+    {
+      "name": "Solutions for everyone",
+      "position": "Analista & Project Manager",
+      "url": "https://s4e.cl",
+      "startDate": "2019-03-01",
+      "endDate": "2021-12-01",
+      "summary": "",
+      "highlights": [
+        "Fui responsable de la planificación, estimación y definición del alcance en proyectos en su etapa inicial",
+        "Me encargué de planificar las actividades y realizar un seguimiento de los hitos en distintos proyectos, en el rol de Scrum Master",
+        "Trabajé en la implementación y mantenimiento de herramientas de Atlassian especializado en Jira, Confluence, Bamboo y Bitbucket",
+        "Diseñe e implemente soluciones basadas en la nube utilizando los servicios y recursos proporcionados por Amazon Web Services (AWS)",
+        "Realice análisis detallado de datos de Jira generando informes personalizados para tomar decisiones informadas, mejorar la eficiencia y el rendimiento del equipo utilizando EazyBi",
+        "Implemente de procesos CI/CD utilizando Bamboo para diversos proyectos",
+        "Lideré el desarrollo tanto de la página web de la empresa como el de su tienda online, donde se ofrecían sus distintos servicios.",
+        "Estuve a cargo del diseño y la construcción de una plataforma destinada a la gestión del personal y al cálculo de remuneraciones del personal, utilizando funciones Lambda de AWS para implementar la lógica de negocio y Angular para el frontend.",
+        "Lideré el desarrollo de una plataforma diseñada para gestionar el aforo de los negocios durante la pandemia, empleando Node.js y Express para el backend y Vue.js para el frontend."
+      ],
+      "skills": [
+        "Jira",
+        "EazyBi",
+        "AngularJs",
+        "NodeJs",
+        "Java",
+        "Groovy",
+        "PHP",
+        "CodeIgniter",
+        "Confluence",
+        "AWS API Gateway", 
+        "AWS CloudWatch", 
+        "AWS DynamoDB", 
+        "AWS EC2", 
+        "AWS Lambda", 
+        "CSS", 
+        "Git",  
+        "HTML", 
+        "JavaScript", 
+        "MySQL", 
+        "Vue",
+        "WooCommerce",
+        "Wordpress"
+      ]
+    },
+    {
+      "name": "Universidad Católica Andrés Bello",
+      "position": "Analista de tecnología y soporte",
+      "url": "https://www.ucab.edu.ve/guayana/",
+      "startDate": "2017-01-01",
+      "endDate": "2018-01-01",
+      "summary": "Desempeñe el rol de programador web y soporte para los sistemas de los distintos departamentos de la universidad, empleando una variedad de tecnologías y herramientas, entre ellas Javascript, AngularJS, NodeJS, Express, SequelizeJS y PHP.",
+      "highlights": [],
+      "skills": [
+        "AngularJs",
+        "NodeJs",
+        "SequelizeJs",
+        "Git", 
+        "HTML", 
+        "CSS",
+        "JavaScript",
+        "PHP", 
+        "MySQL"
+      ]
+    }
+  ],
+  "education": [{
+    "institution": "Universidad Católica Andrés Bello",
+    "url": "https://www.ucab.edu.ve/guayana/",
+    "area": "Ingeniero Informático",
+    "studyType": "Bachelor",
+    "startDate": "2014-03-01",
+    "endDate": "2019-10-01",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "certificates": [
+    {
+    "name": "AWS Certified Cloud Practitioner",
+    "date": "2020-01-02",
+    "issuer": "Amazon Web Services Training and Certification",
+    "url": "https://certificate.com"
+    },
+    {
+      "name": "AWS Partner: Accreditation (Technical)",
+      "date": "2021-01-02",
+      "issuer": "Amazon Web Services Training and Certification",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Atlassian Certified Jira Project Administrator for Data Center and Server",
+      "date": "2021-01-02",
+      "issuer": "Atlassian",
+      "url": "https://certificate.com"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Vue",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Avanzado",
+      "keywords": [
+        "Cloud"
+      ]
+    },
+    {
+      "name": "astro",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Static Generation"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend"
+      ]
+    },
+    {
+      "name": "Django",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "API"
+      ]
+    },
+    {
+      "name": "Postgres",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "NoSQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Jira",
+      "level": "Avanzado",
+      "keywords": [
+        "Service Desk"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend"
+      ]
+    },
+    {
+      "name": "Wordpress",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "Ecommerce"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nineties Grove (Coming Soon Page)",
+      "isActive": false,
+      "description": "Página web de 'Coming Soon' para mi marca de ropa mientras la tienda se encuentra en construcción",
+      "highlights": [
+        "Astro",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind"
+      ],
+      "url": "https://ninetiesgrove.com"
+    },
+    {
+      "name": "Digicupo",
+      "isActive": false,
+      "description": "Plataforma diseñada para gestionar el aforo de los negocios durante la pandemia",
+      "highlights": [
+        "VueJs",
+        "HTML",
+        "CSS",
+        "AWS",
+        "Bamboo",
+        "JavaScript"
+      ],
+      "url": "https://digicupo.cl"
+    },
+    {
+      "name": "Remuneración Facil",
+      "isActive": false,
+      "description": "Plataforma destinada a la gestión del personal y al cálculo de remuneraciones del personal",
+      "highlights": [
+        "AngularJs",
+        "HTML",
+        "CSS",
+        "AWS",
+        "Bamboo",
+        "JavaScript"
+      ],
+      "url": "https://remuneracionfacil.cl"
+    },
+    {
+      "name": "Comunicad",
+      "isActive": false,
+      "description": "Página web para agencia de relaciones públicas y comunicaciones de marketing",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "Sass",
+        "JavaScript"
+      ],
+      "url": "https://comunicad.com"
+    },
+    {
+      "name": "Shiny Cleaning Services",
+      "isActive": true,
+      "description": "Página web para empresa que ofrece servicios de limpieza para empresas y hogares",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "url": "http://shinycleaningtx.com/"
+    },
+    {
+      "name": "Protokol",
+      "isActive": true,
+      "description": "Página web para empresa de telecomunicaciones que ejecuta proyectos de instalación, integración, mantenimiento y puesta a punto",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "url": "https://protokol.es/"
+    }
+  ]
+}

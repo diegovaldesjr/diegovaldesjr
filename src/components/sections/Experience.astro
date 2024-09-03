@@ -24,13 +24,15 @@ import { work } from "@cv"
                         {name}
                       </a>
                     </h3>
-                    <h4 class="text-gray-600">{position}</h4>
+                    <h4 class="text-gray-600 dark:text-white">{position}</h4>
                   </div>
 
                   <div>
                     <time 
                       datetime={startDate}
-                      data-title={startDate}>
+                      data-title={startDate}
+                      class="text-gray-600 dark:text-white"
+                    >
                         {startYear}
                     </time>
                     {" - "}
@@ -38,18 +40,20 @@ import { work } from "@cv"
                       endDate ? (
                         <time 
                           datetime={endDate}
-                          data-title={endDate}>
+                          data-title={endDate}
+                          class="text-gray-600 dark:text-white"
+                        >
                             {endYear}
                         </time>
                       ) : (
-                        <time>Actualidad</time>
+                        <time class="text-gray-600 dark:text-white">Actualidad</time>
                       )
                     }
 
                   </div>
                 </header>
 
-                <footer class="text-sm text-gray-600">
+                <footer class="text-sm text-gray-600 dark:text-white">
                   <p>{summary}</p>
                   <ul class="list-disc mt-4 pl-4">
                     {highlights.map((highlight) => (
@@ -76,7 +80,6 @@ import { work } from "@cv"
 
 <style>
   time {
-    color: #555;
     font-size: 0.85rem;
     min-width: 102px;
     cursor: default;
