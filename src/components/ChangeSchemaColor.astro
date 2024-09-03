@@ -1,12 +1,30 @@
-<div class="dark:text-blue-50">
+---
+import Moon from "@/icons/moon.astro"
+import Sun from "@/icons/sun.astro"
+---
+<div class="dark:text-blue-50 flex items-center gap-2">
+  <Sun id="sunIcon"/>
+  <Moon id="moonIcon"/>
   <label><input id="switchInput" type="checkbox"/></label>
 </div>
 
 <script>
   const switchInput = document.getElementById('switchInput')
+  const moonIcon = document.getElementById('moonIcon')
+  const sunIcon = document.getElementById('sunIcon')
+
+  moonIcon?.classList.add('hidden')
   
   switchInput?.addEventListener('click', () => {
-    document.documentElement.classList.toggle('dark');
+    const darkmode = document.documentElement.classList.toggle('dark')
+
+    if (darkmode) {
+      moonIcon?.classList.remove('hidden')
+      sunIcon?.classList.add('hidden')
+    } else {
+      sunIcon?.classList.remove('hidden')
+      moonIcon?.classList.add('hidden')
+    }
   })
 </script>
 
